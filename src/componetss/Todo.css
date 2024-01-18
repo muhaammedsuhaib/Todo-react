@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(126, 126, 126);
+    background:url('./photos/TODO\ APP.jpg');
+}
+.todo-container{  
+    width: 90vw;
+    margin:5em auto;
+    border-radius: 30px;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px green,0 0 20px green,0 0 10px green;
+    background: transparent;
+}   
+.header{
+    font-size: 2em;
+    text-align: center;   
+    background: transparent;
+}
+.input-container{  
+    padding: 0.5;
+    border-radius: 1em;
+    border: 2px solid rgba(239, 239, 239, 0.239);
+    box-shadow: 0 0 5px green,0 0 20px green,0 0 10px green;
+    background: transparent;
+}
+.input-container:hover{
+    box-shadow: 0 0 5px rgb(156, 156, 156),0 0 20px rgb(158, 158, 158),0 0 10px rgb(158, 158, 158); 
+}
+.input{
+font-size: 1em;
+font-weight: bold;
+color: rgb(255, 255, 255);
+border: 1px;
+border-radius: 1em;
+padding: 0.5em;
+margin: 1em;
+width: 80%;
+background-color: black;
+}
+.input:hover{
+    box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0),  0 0 10px rgb(0, 0, 0); 
+}
+.add-btn{
+    border-radius: 20px;
+    font-size: 1em;
+    margin: 2px;
+    padding: 0px 15px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);    
+    box-shadow: 0 0 5px green,0 0 20px green,0 0 10px green;
+    background-color: black;
+}
+.add-btn:hover{
+    box-shadow: 0 0 5px rgb(156, 156, 156),0 0 20px rgb(158, 158, 158),0 0 10px rgb(158, 158, 158);  
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.list-task{
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 12px;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 5px green,0 0 20px green,0 0 10px green;
+   background:transparent;
+    overflow: hidden;
+}
+.list-task:hover{
+    box-shadow: 0 0 5px rgb(156, 156, 156),0 0 20px rgb(158, 158, 158),0 0 10px rgb(158, 158, 158);   
+}
+.delete-btn{
+   border-radius: 50px;
+   margin: 4px 4px;
+   padding: 3px 5px;
+   border: none;
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+   float: right; 
+   box-shadow: 0 0 5px green,0 0 20px green,0 0 10px green;
+   background-color: black;
+}
+.delete-btn:hover{
+   background-color:rgb(255, 255, 255);
+   color: black;
+    box-shadow: 0 0 5px rgb(156, 156, 156),0 0 20px rgb(158, 158, 158),0 0 10px rgb(158, 158, 158);  
+}
